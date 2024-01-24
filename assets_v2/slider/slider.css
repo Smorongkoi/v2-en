@@ -1,0 +1,186 @@
+/**
+* Template Name: Day - v4.9.1
+* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/* @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;300;400;500&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200&family=Noto+Sans+Thai:wght@100;300;400;500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&family=Sarabun:wght@100;300;400&display=swap'); */
+
+/* slidercondo */
+#mySwiper2
+  {margin-bottom: 10px}
+
+  .mySwiper2 swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  .mySwiper2 .swiper-slide-thumb-active {
+    opacity: 1;
+    border:3px solid #c1c1c1;
+    border-radius:7px;
+    /* จอ pc ปกติ */
+  }
+
+  @media (max-width:320px){
+      #mySwiper2 swiper-slide img {
+      height: 80px;
+    }
+    .mySwiper2 .swiper-slide-thumb-active {
+    border:3px solid #c1c1c1;
+    }
+  }
+  @media (max-width: 425px) and (min-width: 375px) {
+    #mySwiper2 swiper-slide img {
+      height: 80px;
+    }
+    .mySwiper2 .swiper-slide-thumb-active {
+    border:3px solid #c1c1c1;
+    }
+  }
+
+  @media (max-width: 768px) and (min-width: 425px) {
+    #mySwiper2 swiper-slide img {
+      height: 50px;
+    }
+    .mySwiper2 .swiper-slide-thumb-active {
+    border:3px solid #c1c1c1;
+    /* จอมือถือตูน */
+    }
+  }
+/* slidercondo */
+/*rent*/
+#mySwiper2
+  {margin-bottom: 10px}
+
+  #mySwiper2 swiper-slide img {
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+    border:3px solid #fefefe;
+    border-radius:7px;
+    align-self: stretch;
+  }
+  #mySwiperBig swiper-slide img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .mySwiper2 swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  .mySwiper2 .swiper-slide-thumb-active {
+    opacity: 1;
+    border:3px solid #c1c1c1;
+    border-radius:7px;
+
+  }
+
+  @media (max-width:320px){
+      #mySwiper2 swiper-slide img {
+      height: 80px;
+    }
+    .mySwiper2 .swiper-slide-thumb-active {
+    border:3px solid #c1c1c1;
+    }
+  }
+  @media (max-width: 425px) and (min-width: 375px) {
+    #mySwiper2 swiper-slide img {
+      height: 80px;
+    }
+    .mySwiper2 .swiper-slide-thumb-active {
+    border:3px solid #c1c1c1;
+    }
+  }
+
+  @media (max-width: 768px) and (min-width: 425px) {
+    #mySwiper2 swiper-slide img {
+      height: 50px;
+    }
+    .mySwiper2 .swiper-slide-thumb-active {
+    border:3px solid #c1c1c1;
+
+    }
+  }
+  @media (max-width:320px){ #mySwiper2 swiper-slide img {height: 35px;}}
+  @media (max-width: 425px) and (min-width: 375px) { #mySwiper2 swiper-slide img {height: 50px;}}
+  @media (max-width: 768px) and (min-width: 426px){ #mySwiper2 swiper-slide img {height: 40px;}}
+  @media (min-width:769px) and (max-width: 1024px) { #mySwiper2 swiper-slide img {height: 60px;}}
+  @media (min-width:1025px) { #mySwiper2 swiper-slide img {height: 80px;}}
+/*rent*/
+/*rentroom*/
+#mySwiper2b
+  {margin-bottom: 10px}
+
+  #mySwiper2b swiper-slide img {
+    /* width: 100%;
+    height: 100%; */
+    height: 80px;
+    width: 100%;
+    object-fit: cover;
+    border:3px solid #fefefe;
+    border-radius:7px;
+    align-self: stretch;
+  }
+  #mySwiperBigb swiper-slide img {
+    /* width: 100%;
+    height: 100%; */
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .mySwiper2b swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  .mySwiper2b .swiper-slide-thumb-active {
+    opacity: 1;
+    border:3px solid #ff6738;
+    border-radius:7px;
+    /* จอ pc ปกติ */
+  }
+
+  @media (max-width:320px){
+      #mySwiper2b swiper-slide img {
+      height: 80px;
+    }
+    .mySwiper2b .swiper-slide-thumb-active {
+    border:3px solid #ff6738;
+    }
+  }
+  @media (max-width: 425px) and (min-width: 375px) {
+    #mySwiper2b swiper-slide img {
+      height: 80px;
+    }
+    .mySwiper2b .swiper-slide-thumb-active {
+    border:3px solid #ff6738;
+    }
+  }
+
+  @media (max-width: 768px) and (min-width: 425px) {
+    #mySwiper2b swiper-slide img {
+      height: 50px;
+    }
+    .mySwiper2b .swiper-slide-thumb-active {
+    border:3px solid #ff6738;
+    /* จอมือถือตูน */
+    }
+  }
+  @media (max-width:320px){ #mySwiper2b swiper-slide img {height: 35px;}}
+  @media (max-width: 425px) and (min-width: 375px) { #mySwiper2b swiper-slide img {height: 50px;}}
+  @media (max-width: 768px) and (min-width: 426px){ #mySwiper2b swiper-slide img {height: 40px;}}
+  @media (min-width:769px) and (max-width: 1024px) { #mySwiper2b swiper-slide img {height: 60px;}}
+  @media (min-width:1025px) { #mySwiper2b swiper-slide img {height: 80px;}}
+/*rentroom*/

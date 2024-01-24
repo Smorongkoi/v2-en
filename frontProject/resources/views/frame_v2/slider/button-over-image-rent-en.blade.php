@@ -1,0 +1,32 @@
+<div class="img-overlay condo-detail-toon" >
+          <button type="button" class="btn btn-sm btn-warning btn-rounded" data-mdb-ripple-color="dark">
+              {{ $post->post_no }}
+          </button>
+  @switch($post->post_status_rent)
+      @case(1) 
+      <button type="button" class="btn btn-sm btn-outline-success btn-rounded"  data-mdb-ripple-color="dark">
+          Vacant
+          <span class="badge" >
+              <i class="fas fa-check"></i>
+          </span> 
+      </button>                                    
+      @break
+      @case(0) 
+      <button type="button" class="btn btn-sm btn-outline-danger btn-rounded" data-mdb-ripple-color="dark">
+        Rented
+          <span class="badge">
+              <i class="fas fa-times"></i>
+          </span> 
+      </button>                                    
+      @break
+  @endswitch
+
+  @if($post->post_accept_pin != "")                            
+      <button type="button" class="btn btn-sm btn-outline-info btn-rounded" data-mdb-ripple-color="dark">HQ
+          <span class="badge" >
+              <i class="fas fa-star"></i>
+          </span>
+      </button>                              
+  @endif
+
+</div>

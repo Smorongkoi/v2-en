@@ -1,0 +1,86 @@
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1.0;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+.blink {
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+@keyframes menu-opac-in {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes menu-right-in {
+  from {
+    right: -250px;
+    opacity: 0
+  }
+
+  to {
+    right: 0;
+    opacity: 1
+  }
+}
+
+@keyframes head-co-agent {
+  0% { color : #ee4d24; }
+  25% { color : #FFCB0B; }
+  50% { color : #ee4d24; }
+  75% { color : #FFCB0B; }
+  100% { color : #ee4d24; }
+}
+
+@-webkit-keyframes co-agent-fly {
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 1
+  }
+
+  100% {
+    -webkit-transform: translateY(-1em);
+    opacity: 1
+  }
+}
+
+@keyframes animate-train-banner {
+  from {
+    left: -200px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes dont-miss-tab {
+  0% {
+    background-color: #ee4d24;
+    color:white;
+  }
+  50%{
+    background-color:white;
+    color:black;
+  }
+  100% {
+    background-color: #ee4d24;
+    color:white;
+  }
+}
